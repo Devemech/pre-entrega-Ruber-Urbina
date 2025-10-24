@@ -79,4 +79,4 @@ Próximos pasos (Entrega Final):
 * Incorporar validaciones más avanzadas y flujos completos de compra.
 
 Autor:
-    Lucas Lento - Proyecto realizado para la materia Automatización QA
+    Ruber Armando Urbina
