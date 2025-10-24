@@ -23,23 +23,18 @@ Tecnologías Utilizadas:
 Estructura del proyecto:
 
 pre-entrega-ruber-urbina/
-│
-├── tests/
-│   └── test_login.py
-│   └── test_inventory.py
-│
-├── utils.py #Funciones auxiliares y setup
-│
-├── report.html  #Reporte generado por pytest
-│
-├── assets/
-│   └── style.css
-│
-├── conftest.py
-│
-├── run_test.py #Argumentos para ejecutar pruebas: archivos + reporte HTML
-│
-├── README.md
+
+├── test/ 
+│     ├── test_login.py         # Pruebas relacionadas con el Login. 
+│     ├── test_inventory.py     # Pruebas de Inventario y Elementos. 
+│     └── test_productos.py     # Pruebas de Carrito y Flujo de Productos.
+│ 
+├── utils.py                # Funciones Login (Inicialización de Chrome/Driver). 
+├── conftest.py             # Hooks de Pytest, fixtures. 
+├── report.html             # Reporte final generado por pytest. 
+├── README.md               # Describe las funcionalidades del programa. 
+├── run_tests.py            # Archivo main para la ejecución de los tests. 
+└── requirements.txt        # Listado de dependencias del proyecto.
 
 Instalar dependencias:
 
