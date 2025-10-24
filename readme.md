@@ -22,7 +22,7 @@ Tecnologías Utilizadas:
 
 Estructura del proyecto:
 
-preentrega-lucas-lento/
+pre-entrega-ruber-urbina/
 │
 ├── tests/
 │   └── test_login.py
